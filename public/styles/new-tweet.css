@@ -44,3 +44,7 @@ form {
   font-family: 'Bungee', sans-serif;
   color: black;
 }
+
+.redText {
+  color: red;
+}
