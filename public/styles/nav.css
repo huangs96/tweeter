@@ -8,7 +8,7 @@ nav {
   padding: 1.5em;
   align-items: center;
   width: 100%;
-  /* position: fixed; */
+  /* position: absolute; */
 }
 
 nav > span {
