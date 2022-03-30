@@ -15,11 +15,60 @@ html {
  */
 
 body {
+  display: flex;
+  flex-direction: column;
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans 3', sans-serif;
 }
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f1ec;
+}
+
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f1ec;
+  width: 145%;   
+  margin-top: 2rem;
+}
+
+div {   
+  display: flex;   
+  justify-content: space-between; 
+}
+
+label {   
+  display: flex;   
+  align-items: flex-end;   
+  border-bottom: black; 
+}
+
+textarea {   
+  width: 100%;   
+  border: none;   
+  border-bottom: 20px solid black;   
+  border-width: thick;   
+  background: transparent;   
+  outline: none;  
+}
+
+form {   
+  width: 60%; 
+}
