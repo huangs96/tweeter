@@ -1,32 +1,26 @@
-article.tweets-container {
+.tweets-container {
   border: 4px solid;
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 40px;
-  width: 70%;
 }
 
-article.tweets-container:hover {
+.tweets-container:hover {
   box-shadow: 5px 10px gray;
 }
 
-article div.tweetmain {
+div.tweetmain {
   display: flex;
 }
 
-article header {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-}
 
-article p.tweet {
+p.tweet {
   padding-left: 10px;
   padding-bottom: 35px;
   border-bottom: 4px solid;
 }
 
-article p.handle {
+p.handle {
   color: gray;
   font-size: small;
 }
@@ -37,7 +31,7 @@ article footer {
   height: 50px;
   justify-content: space-between;
   font-size: small;
-  border-top: 2px;
+  border-top: 2px;  
   border-color: black;
   padding-left: 10px;
   padding-right: 10px;
@@ -48,6 +42,11 @@ article footer p {
   padding-top: -10px;
 }
 
+article header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
 
 .tweetmain i {
   font-size: 50px;
@@ -57,9 +56,22 @@ article footer p {
 }
 
 .tweetmain p {
-  padding-left: 8px;
+  /* padding-left: 8px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .icons i:hover {
   color: rgb(94, 143, 235);
+}
+
+
+.tweetmain img {
+  padding-right: 10px;
+}
+
+.maintweetcontainer {
+  display: flex;
+  flex-direction: column-reverse;
 }
