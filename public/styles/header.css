@@ -10,8 +10,8 @@ body > header {
 }
 
 
-div img {
-  padding-top: 120px;
+.headerimg {
+  padding-top: 100px;
 }
 
 #alert {

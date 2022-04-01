@@ -11,10 +11,10 @@ $(document).ready(function() {
     if (input > length) {
       $('.counter').css("color", "red");
     } else {
-      $('.counter').css("color", "black")
+      $('.counter').css("color", "black");
     }
 
     $('.counter').html(remainingChar);
-  })
+  });
   
 });

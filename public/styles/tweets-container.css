@@ -56,7 +56,7 @@ article header {
 }
 
 .tweetmain p {
-  /* padding-left: 8px; */
+  padding-left: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,9 +69,15 @@ article header {
 
 .tweetmain img {
   padding-right: 10px;
+  padding-left: -10px;
 }
 
 .maintweetcontainer {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.avatar {
+  padding-left: 5px;
+  padding-top: 10px
 }
