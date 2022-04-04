@@ -4,9 +4,9 @@ $(document).ready(function() {
   // counts characters in textarea
   $('#tweet-text').on('keyup', function(event) {
     const length = 140;
-    let message = event.target.value;
-    let input = message.length;
-    let remainingChar = length - input;
+    const message = event.target.value;
+    const input = message.length;
+    const remainingChar = length - input;
 
     if (input > length) {
       $('.counter').css("color", "red");
