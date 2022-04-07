@@ -5,42 +5,37 @@
   }
 
   .fullheader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 150%;
+    width: 100%
   }
 
   .container {
     display: flex;
     justify-content: center;
     min-width: 90%; 
-    width: 150%;
+    width: 100%;
     margin-top: 10%;
-    /* padding-left: 50px; */
   }
 
   section.new-tweet {
     display: flex;
     justify-content: center;
-    width: 150%;
+    width: 100%;
     margin-right: 5%;
     margin-left: 5%;
-    padding-left: 400px;
   }
 
   .headerimg {
     height: 100%;
     position: unset;
-    width: 200%;
-    padding-bottom: 500px;
+    width: 100%;
     background-image: url(https://www.transparenttextures.com/patterns/basketball.png);
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   .new-tweet {
     display: flex;
     justify-content: center;
-    padding-right: 500px;
+    margin-top: 0px;
   }
 }

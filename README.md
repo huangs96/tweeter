@@ -16,3 +16,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+https://puu.sh/ITffg/b13b095aff.png
+
+https://puu.sh/ITffE/66568eb9db.png
