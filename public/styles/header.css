@@ -7,8 +7,6 @@ body > section {
   padding-top: 100px;
   width: 516px;
   height: 561px;
-  /* background-color: rgb(243, 160, 34);
-  background-image: url(https://www.transparenttextures.com/patterns/basketball.png); */
 }
 
 
@@ -18,12 +16,6 @@ body > section {
 .filler {
   height: 300px;
 }
-
-/* .filler2 {
-  float:left;
-  padding-left:100px;
-  width:300px;
-} */
 
 .headerimg {
   display: flex;
