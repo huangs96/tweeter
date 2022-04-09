@@ -5,12 +5,8 @@ body > section {
   align-items: flex-start;
   float: left;
   padding-top: 100px;
-  width: 516px;
+  width: 50%;
   height: 561px;
-}
-
-
-.fullheader {
 }
 
 .filler {

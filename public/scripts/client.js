@@ -7,7 +7,6 @@
 // Test / driver code (temporary). Eventually will get this from the server.
 
 $(document).ready(function() {
-  console.log('jQuery Loaded');
 
   //Escaping text function to prevent XSS attack
 
@@ -50,11 +49,15 @@ $(document).ready(function() {
   // responsible for taking in an array of tweet objects and appending to tweets-container
 
   const renderTweets = function(tweets) {
+    let $tweetscontainer = $('.maintweetcontainer');
+    $tweetscontainer.empty();
+    const emptyTweetBox = []; //empty array to store new tweet content while emptying existing tweets to avoid duplicate posting
+    
     for (let content of tweets) {
       let newTweet = createTweetElement(content);
-      let $tweetscontainer = $('.maintweetcontainer');
-      $tweetscontainer.append(newTweet);
+      emptyTweetBox.push(newTweet[0]);
     }
+    $tweetscontainer.append(emptyTweetBox);
   };
 
 
@@ -65,6 +68,7 @@ $(document).ready(function() {
       url:"/tweets",
       type:"GET"
     }).then((data) => {
+      $("#tweets-container").empty()
       renderTweets(data);
     });
   };
@@ -91,7 +95,7 @@ $(document).ready(function() {
       type: 'POST',
       url: '/tweets',
       data: preTweet
-    }).then(() => {
+    }).then((data) => {
       loadTweet();
       $('#tweet-text').val('');
       $('.counter').val(140);

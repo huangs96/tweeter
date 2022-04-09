@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log('jQuery Loaded');
   
   // counts characters in textarea
   $('#tweet-text').on('keyup', function(event) {

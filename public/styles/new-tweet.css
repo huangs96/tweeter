@@ -6,7 +6,7 @@
   background-color: #f4f1ec;
   width: 100%;   
   margin-top: 300px;
-  margin-left: 500px;
+  /* margin-left: 500px; */
 }
 
 div {   
@@ -38,7 +38,7 @@ button {
 }
 
 form {   
-  width: 60%; 
+  width: 100%; 
 }
 
 .counter {
