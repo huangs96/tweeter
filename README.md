@@ -19,6 +19,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-https://puu.sh/ITffg/b13b095aff.png
+![image](https://user-images.githubusercontent.com/99042142/162553118-f6d098c5-eca2-48cb-bf93-1c85fdb440d5.png)
 
-https://puu.sh/ITffE/66568eb9db.png
+![image](https://user-images.githubusercontent.com/99042142/162553217-bc8f97ec-1066-4e4a-9fae-11b29b8a53de.png)
